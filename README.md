@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# pro.drx
 
-## Getting Started
+**Note: This project has been discontinued and is no longer actively maintained.**
 
-First, run the development server:
+## Introduction
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This Next.js application was designed to track and monitor the prices of products on various websites through web scraping. It allowed users to add product URLs, schedule periodic scraping tasks, and receive notifications when prices changed. However, due to several reasons, this project has been discontinued.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Reasons for Discontinuation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The project was discontinued for the following reasons:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. **Legality and Ethics**: Web scraping can potentially violate the terms of service of websites and may be considered unethical. It's important to respect website policies and legal regulations.
 
-## Learn More
+2. **Technological Challenges**: Maintaining a reliable web scraping solution can be challenging. Websites often change their structure, which can break scraping scripts and require constant updates.
 
-To learn more about Next.js, take a look at the following resources:
+3. **Resource Intensive**: Web scraping can be resource-intensive, especially when scraping large amounts of data. This can strain server resources and lead to performance issues.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. **Alternative Solutions**: There are alternative solutions for price tracking, such as using APIs provided by e-commerce websites or third-party services, which are more reliable and sustainable.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Project Structure
 
-## Deploy on Vercel
+Although the project is discontinued, you can still review the codebase and learn from it. Here's an overview of the project's structure:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- `src/`: Contains the Next.js application code.
+- `public/`: Includes static assets like images and styles.
+- `pages/`: Contains Next.js pages and routing logic.
+- `components/`: Includes React components used throughout the application.
+- `lib/`: Contains utility functions and configurations.
+- `scripts/`: May contain web scraping scripts, if applicable.
